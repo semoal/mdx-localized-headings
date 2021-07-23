@@ -1,0 +1,35 @@
+{
+  "name": "mdx-localized-headings",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.mjs",
+  "types": "index.d.ts",
+  "bin": {
+    "mdx-localized-headings": "./script.mjs"
+  },
+  "files": [
+    "index.mjs",
+    "README.md",
+    "script.mjs"
+  ],
+  "author": "Sergio Moreno",
+  "license": "MIT",
+  "engines": {
+    "node": ">=12"
+  },
+  "scripts": {
+    "test": "uvu tests"
+  },
+  "dependencies": {
+    "chalk": "^4.1.1",
+    "remark": "^13.0.0",
+    "remark-frontmatter": "^3.0.0",
+    "remark-gfm": "^1.0.0",
+    "remark-mdx": "^1.6.22"
+  },
+  "devDependencies": {
+    "fs-temp": "^1.2.1",
+    "to-vfile": "^7.2.0",
+    "uvu": "^0.5.1"
+  }
+}
