@@ -9,5 +9,10 @@ if (!originalFile || !translatedFile) {
   console.log(chalk.blueBright('eg. mdx-localized-headings ./original.mdx ./translated.mdx'))
   process.exit(0)
 }
-await transform(originalFile, translatedFile)
-console.log(chalk.greenBright('Correctly transformed'))
+transform(originalFile, translatedFile)
+.then(() => {
+  console.log(chalk.greenBright('Correctly transformed'))
+})
+.catch((err) => {
+  console.error(chalk.red(err))
+})
