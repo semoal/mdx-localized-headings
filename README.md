@@ -18,13 +18,14 @@ This tool can pick an original `markdown.mdx|md`, save their headings ids and ad
 
 You can run it through a CLI:
 ```bash
-npm install -g mdx-localized-headings
-mdx-localized-headings ./docs/base.mdx ./docs/translated.mdx
+npx mdx-localized-headings ./docs/base.mdx ./docs/translated.mdx
 ```
 
 or run it through Node:
 ```bash
-npm install -g mdx-localized-headings
+npm install mdx-localized-headings
+# or use yarn
+yarn add --dev mdx-localized-headings
 ```
 
 ```js
