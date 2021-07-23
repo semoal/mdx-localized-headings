@@ -1,5 +1,7 @@
 # MDX/MD Localized Headings Transformation
 
+[![CI](https://github.com/semoal/mdx-localized-headings/actions/workflows/main.yml/badge.svg)](https://github.com/semoal/mdx-localized-headings/actions/workflows/main.yml)
+
 ## Inspiration
 
 The inspiration to create this tool is basically that Docusaurus V2, introduces some heading id's to headers.
