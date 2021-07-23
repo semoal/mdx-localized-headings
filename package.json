@@ -8,6 +8,7 @@
     "mdx-localized-headings": "./script.mjs"
   },
   "files": [
+    "index.d.ts",
     "index.mjs",
     "README.md",
     "script.mjs"
